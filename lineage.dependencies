@@ -1,0 +1,20 @@
+[
+  {
+	"remote": "github",
+    "repository": "kbt69/android_kernel_xiaomi_mt6765",
+	"target_path": "kernel/xiaomi/mt6765",
+	"branch": "alps-0.6"
+  },
+  {
+	"remote": "github",
+	"repository": "kbt69/proprietary_vendor_xiaomi",
+	"target_path": "vendor/xiaomi",
+	"branch": "12.1"
+  },
+  {
+	"remote": "github",
+	"repository": "kbt69/libaptX",
+	"target_path": "external/libaptx",
+	"branch": "main"
+  }
+]

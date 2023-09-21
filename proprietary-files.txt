@@ -1,0 +1,40 @@
+# MTK-IMS
+# from full_certus-userdebug 10 QP1A.190711.020 mp1V91561 test-keys
+-framework/mediatek-common.jar
+-framework/mediatek-framework.jar
+-framework/mediatek-ims-base.jar
+-framework/mediatek-ims-common.jar
+-framework/mediatek-telecom-common.jar
+-framework/mediatek-telephony-base.jar
+-framework/mediatek-telephony-common.jar
+bin/vtservice
+etc/init/init.vtservice.rc
+framework/mediatek-ims-legacy.jar
+lib/libcomutils.so
+lib/libimsma.so
+lib/libimsma_adapt.so
+lib/libimsma_rtp.so
+lib/libimsma_socketwrapper.so
+lib/libmtk_vt_service.so
+lib/libmtk_vt_wrapper.so
+lib/libmtkaudio_utils.so
+lib/libmtkavenhancements.so
+lib/libmtklimiter.so
+lib/libmtkperf_client.so
+lib/libmtkshifter.so
+lib/libsignal.so
+lib/libsink.so
+lib/libsource.so
+lib/libvcodec_cap.so
+lib/libvcodec_capenc.so
+lib/libvt_avsync.so
+lib/vendor.mediatek.hardware.videotelephony@1.0.so
+
+# Mediatek EngineerMode
+priv-app/EngineerMode/EngineerMode.apk
+lib/libem_support_jni.so
+lib/libem_usb_jni.so
+lib/libem_wifi_jni.so
+
+# from https://treble.phh.me/stable/ims-mtk-q.apk
+priv-app/ImsService/ImsService.apk|965f1d750e2b327fb32535c97ee131e8
