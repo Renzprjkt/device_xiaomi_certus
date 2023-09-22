@@ -25,6 +25,9 @@ $(call inherit-product, device/xiaomi/certus64/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Build Maintainer
+ALPHA_MAINTAINER := nomelody
+
 # Boot animaton
 TARGET_BOOT_ANIMATION_RES := 720
 
