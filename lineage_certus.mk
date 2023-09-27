@@ -20,20 +20,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Inherit from device
-$(call inherit-product, device/xiaomi/certus64/device.mk)
+$(call inherit-product, device/xiaomi/certus/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Build Maintainer
-ALPHA_MAINTAINER := nomelody
+ALPHA_MAINTAINER := Minami
 
 # Boot animaton
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := certus64
-PRODUCT_NAME := lineage_certus64
+PRODUCT_DEVICE := certus
+PRODUCT_NAME := lineage_certus
 PRODUCT_BRAND := xiaomi
 PRODUCT_MODEL := Redmi 6 / Redmi 6A
 PRODUCT_MANUFACTURER := Xiaomi
